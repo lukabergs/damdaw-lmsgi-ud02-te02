@@ -1,0 +1,218 @@
+/*
+Autor: Luka Bergaretxe López
+Asignatura: LMGSI
+Unidad: UD 1
+Tarea: Tarea Evaluación 2 - Primer sitio web con formato
+
+FORMATOS.CSS
+Hoja de estilo CSS con diferentes selectores de etiquetas así como clases para modificar la apariencia de los documentos HTML de este proyecto
+*/
+
+/* Clase para modificar la apariencia del nombre del autor en todos los documentos */
+.name {
+    font-family: "Neou Thin", sans-serif;
+    font-weight: 100;
+    font-size: 160px;
+    letter-spacing: -19px;
+}
+
+/* Clase para modificar la apariencia del apellido del autor en todos los documentos */
+.surname {
+    font-family: "Neou", sans-serif;
+    font-weight: bold;
+    font-size: 160px;
+    letter-spacing: -25px;
+}
+
+/* Clase para centrar elementos en pantalla */
+.center {
+    text-align: center;
+}
+
+/* Clase para representar una imagen en un marco circular */
+img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+}
+
+/* Clase para definir un tipo de texto de acento */
+.a1 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Clase para definir un tipo de texto de acento */
+.a2 {
+    font-family: "Neou", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Clase para modificar la apariencia de los hipervínculos */
+.link {
+    font-family: "Neou", sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+/* Clase para modificar la apariencia de los vínculos de navegación interna del proyecto */
+.navlinks {
+    font-family: "Neou Thin", sans-serif;
+    font-style: italic;
+    background-color: black;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+/* Clase para modificar la apariencia del texto de pie de vídeo */
+.caption {
+    font-family: "GeosansLight", sans-serif;
+    font-size: 14px;
+}
+
+/* Selector para modificar la apariencia del texto de cabecera <h3> */
+h3 {
+    font-family: "GeosansLight", sans-serif;
+    font-size: 24px;
+    letter-spacing: 16px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+/* Selector para modificar la apariencia de las tablas */
+table, th, td {
+    font-family: "GeosansLight", sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+/* Selector para modificar la apariencia de las listas de definiciones */
+dl {
+    font-family: "GeosansLight", sans-serif;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.navbar {
+    background: #000000;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 432px;
+    display: flex;
+}
+
+.navbar a {
+    font-size: 44px;
+}
+
+.blog a {
+    font-size: 28px;
+}
+
+.navbar a:hover {
+    font-style: italic;
+}
+
+.aside {
+    color: #ffffff;
+    background: #000000;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 432px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Butler', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "Neou Thin", sans-serif;
+    font-size: 44px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "Neou Thin", sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "Neou Thin", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.aside ul {
+    font-family: 'Butler', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aside li {
+    margin: 10px;
+}
+
+.logo {
+    mix-blend-mode: difference;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.blog {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    margin-right: 800px;
+    padding: 40px;
+}
+
+.button {
+    background-color: #000000;
+    float: right;
+}
+
+a {
+    color: #ffffff;
+    font-family: "Neou Thin", sans-serif;
+    text-decoration: none;
+}
+
+.article {
+    padding: 40px;
+}
